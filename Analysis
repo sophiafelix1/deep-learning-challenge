@@ -1,4 +1,4 @@
-*** Charity Fundraising Prediction Model ***
+**Charity Fundraising Prediction Model**
 **Overview**
 Alphabet Soup is a non profit organization which seeks a predictive tool to aid in a selection of applicants most likely to suceed in their endeavors when funded. By employing machine learning and neural networks. The objective is to develop a binary classifier capable of forecasting whether applicants wil achieve sucess with Alphabet Soup's Financial Support. 
 #Data Preprocessing
