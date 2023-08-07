@@ -2,3 +2,29 @@
 **Overview**
 Alphabet Soup is a non profit organization which seeks a predictive tool to aid in a selection of applicants most likely to suceed in their endeavors when funded. By employing machine learning and neural networks. The objective is to develop a binary classifier capable of forecasting whether applicants wil achieve sucess with Alphabet Soup's Financial Support. 
 #Data Preprocessing
+** Dropped Columns **
+EIN and NAME columns had to be dropped because they are not targets.
+** Target Variable **
+IS_SUCCESSFUL is the target variable that needs to be evaluated.
+** Feature Variables **
+APPLICATION_TYPE 
+AFFLIATION
+CLASSIFICATION
+USE_CASE
+ORGANIZATION
+STATUS
+INCOME_AMT
+SPECIAL_CONSIDERATIONS
+ASK_AMT
+
+Compiling, training, and Evaluating the Model
+The first model was built:
+Input Dimensions : 43
+Hidden Layers:3 (relu, relu)
+Output Layer : 1 (sigmoid)
+
+Accuracy Score: 72.6%
+Model Optimization
+After conductiong an optimization session, the outcome reaffirmed the selection of the third model although this had the worst outcome out of the three.
+** Conclusion **
+After examining the three separate model sessions, it is clear that achieving accuracy beyound 72% threshold is challenging. Future steps would involve revisiting the dataset to identify features that might contribute to this observed limitation in predictive accuracy.
